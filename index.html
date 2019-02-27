@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    This full page is designed and developed by 
+        - Prithwee Das (https://github.com/prithweedas)  
+        - Ritwick Dey (https://github.com/ritwickdey) 
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0; user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Ritwick Dey, Prithwee Das">
+    <title>TECHNITIATE 2K18</title>
+    <link rel="shortcut icon" href="./img/logo.ico?v=1" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/skeleton.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css?v=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ?v=1 ==>> To remove browser cache -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/wow.min.js"></script>
+    <!-- <script src="https://use.fontawesome.com/7c0b3ec4f2.js"></script> -->
+    <script src="scripts/scripts.js"></script>
+    <style>
+        .wow {
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay">
+        <div class="event-details 1-event">
+            <i class="fa fa-3x fa-times modal-close-btn" eventNo="1" aria-hidden="true"></i>
+            <div class="details">
+                <h1>Techno Buzz</h1>
+                <div class="details-card">
+                    <div class="details-item details-img">
+                        <img src="./img/events/techno_buzz_comp.jpg" alt="Event">
+                    </div>
+                    <div class="details-item details-category">
+                        <h5>Details</h5>
+                        <table>
+                            <tr>
+                                <td class="bold">Category</td>
+                                <td>:</td>
+                                <td>Technical Exhibition</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Date</td>
+                                <td>:</td>
+                                <td class="dateEvent">Soon</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Registration Fee</td>
+                                <td>:</td>
+                                <td>NILL</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Max member in a team</td>
+                                <td>:</td>
+                                <td>5</td>
+                            </tr>
+                        </table>
+                        <p>
+                            <i>(Download Rules for more details)</i>
+                        </p>
+                    </div>
+                    <div class="details-item details-rules">
+                        <div>
+                            Show your skill to make your own electronic based model or gadgets
+                        </div>
+                        <div class="prizeMoney">
+                            <h5>PRIZE MONEY</h5>
+                            <p>1st Prize: INR 2,500/-*</p>
+                            <p>2nd Prize: INR 1,800/-*</p>
+                        </div>
+
+                    </div>
+                    <div class="details-item details-btns">
+                        <button class="btn details-btn" id="techBtn">Rules</button>
+                        <button class="btn details-btn RegisterBtn">Register</button>
+                        <div class="bold green small-font">(OFFLINE REGISTRATION DESK IS ALSO AVAILABLE TO REGISTER DIRECTLY ON THE EVENT DATE)</div>
+                        <div class="bold red small-font">* Prize money is subject to change based on the number of participants</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="event-details 2-event">
+            <i class="fa fa-3x fa-times modal-close-btn" eventNo="2" aria-hidden="true"></i>
+            <div class="details">
+                <h1>BUILD MECH ARENA</h1>
+                <div class="details-card">
+                    <div class="details-item details-img">
+                        <img src="./img/events/BUILD_MECH_ARENA.jpeg" alt="Event">
+                    </div>
+                    <div class="details-item details-category">
+                        <h5>Details</h5>
+                        <table>
+                            <tr>
+                                <td class="bold">Category</td>
+                                <td>:</td>
+                                <td>Technical Exhibition</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Date</td>
+                                <td>:</td>
+                                <td class="dateEvent">Soon</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Registration Fee</td>
+                                <td>:</td>
+                                <td>Nill</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Max member in a team</td>
+                                <td>:</td>
+                                <td>5</td>
+                            </tr>
+                        </table>
+                        <p>
+                            <i>(Download Rules for more details)</i>
+                        </p>
+                    </div>
+                    <div class="details-item details-rules">
+                        <div>
+                            Show your skill to build prototype based of any kind of material, boards, bricks etc.
+                        </div>
+                        <div class="prizeMoney">
+                            <h5>PRIZE MONEY</h5>
+                            <p>1st Prize: INR 2,500/-*</p>
+                            <p>2nd Prize: INR 1,800/-*</p>
+                        </div>
+
+                    </div>
+                    <div class="details-item details-btns">
+                        <button class="btn details-btn" id="bmaBtn">Rules</button>
+                        <button class="btn details-btn RegisterBtn">Register</button>
+                        <div class="bold green small-font">(OFFLINE REGISTRATION DESK IS ALSO AVAILABLE TO REGISTER DIRECTLY ON THE EVENT DATE)</div>
+                        <div class="bold red small-font">* Prize money is subject to change based on the number of participants</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="event-details 3-event">
+            <i class="fa fa-3x fa-times modal-close-btn" eventNo="3" aria-hidden="true"></i>
+            <div class="details">
+                <h1>Code Strom</h1>
+                <div class="details-card">
+                    <div class="details-item details-img">
+                        <img src="./img/events/code-storm.jpg" alt="Event">
+                    </div>
+                    <div class="details-item details-category">
+                        <h5>Details</h5>
+                        <table>
+                            <tr>
+                                <td class="bold">Category</td>
+                                <td>:</td>
+                                <td>Programing</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Date</td>
+                                <td>:</td>
+                                <td class="dateEvent">Soon</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Registration Fee</td>
+                                <td>:</td>
+                                <td>Rs.100/- per team</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Max member in a team</td>
+                                <td>:</td>
+                                <td>3</td>
+                            </tr>
+                        </table>
+                        <p>
+                            <i>(Download Rules for more details)</i>
+                        </p>
+                    </div>
+                    <div class="details-item details-rules">
+                        <div>
+                            Love programming? yet not getting better place to unfurl your skills? Come and CODE. We honour better coders.
+                        </div>
+                        <div class="prizeMoney">
+                            <h5>PRIZE MONEY</h5>
+                            <p>1st Prize: INR 1,500/-*</p>
+                            <p>2nd Prize: INR 800/-*</p>
+                        </div>
+
+                    </div>
+                    <div class="details-item details-btns">
+                        <button class="btn details-btn" id="codeStromBtn">Rules</button>
+                        <button class="btn details-btn RegisterBtn">Register</button>
+                        <div class="bold green small-font">(OFFLINE REGISTRATION DESK IS ALSO AVAILABLE TO REGISTER DIRECTLY ON THE EVENT DATE)</div>
+                        <div class="bold red small-font">* Prize money is subject to change based on the number of participants</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="event-details 4-event">
+            <i class="fa fa-3x fa-times modal-close-btn" eventNo="4" aria-hidden="true"></i>
+            <div class="details">
+                <h1>Photography</h1>
+                <div class="details-card">
+                    <div class="details-item details-img">
+                        <img src="./img/events/photography.jpg" alt="Event">
+                    </div>
+                    <div class="details-item details-category">
+                        <h5>Details</h5>
+                        <table>
+                            <tr>
+                                <td class="bold">Category</td>
+                                <td>:</td>
+                                <td>Photography</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Date</td>
+                                <td>:</td>
+                                <td class="dateEvent">Soon</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Registration Fee</td>
+                                <td>:</td>
+                                <td>Rs.70/- per head</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Topic</td>
+                                <td>:</td>
+                                <td>Home Engineering</td>
+                            </tr>
+                        </table>
+                        <p>
+                            <i>(Download Rules for more details)</i>
+                        </p>
+                    </div>
+                    <div class="details-item details-rules">
+                        <div>
+                            Want a place to prove yourself as a better Frame-maker. We are giving you an opportunity to prove yourself and get rewarded
+                            for your effort.
+                        </div>
+                        <div class="prizeMoney">
+                            <h5>PRIZE MONEY</h5>
+                            <p>1st Prize: INR 1,500/-*</p>
+                            <p>2nd Prize: INR 900/-*</p>
+                        </div>
+                    </div>
+                    <div class="details-item details-btns">
+                        <button class="btn details-btn" id="photoBtn">Rules</button>
+                        <button class="btn details-btn RegisterBtn">Register</button>
+                        <div class="bold green small-font">(OFFLINE REGISTRATION DESK IS ALSO AVAILABLE TO REGISTER DIRECTLY ON THE EVENT DATE)</div>
+                        <div class="bold red small-font">* Prize money is subject to change based on the number of participants</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="event-details 5-event">
+            <i class="fa fa-3x fa-times modal-close-btn" eventNo="5" aria-hidden="true"></i>
+            <div class="details">
+                <h1>CS 1.6</h1>
+                <div class="details-card">
+                    <div class="details-item details-img">
+                        <img src="./img/events/CS.jpg" alt="Event">
+                    </div>
+                    <div class="details-item details-category">
+                        <h5>Details</h5>
+                        <table>
+                            <tr>
+                                <td class="bold">Category</td>
+                                <td>:</td>
+                                <td>Gaming</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Date</td>
+                                <td>:</td>
+                                <td class="dateEvent">Soon</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Registration Fee</td>
+                                <td>:</td>
+                                <td>Rs.150/- per team</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Max member in a team</td>
+                                <td>:</td>
+                                <td>5</td>
+                            </tr>
+                        </table>
+                        <p>
+                            <i>(Download Rules for more details)</i>
+                        </p>
+                    </div>
+                    <div class="details-item details-rules">
+                        <div>
+                            Show your skills with more of your friends better to call your CLAN. Hit the dust, Spill the blood. Reach to the top through
+                            the path of glory. Engrave your name to the wall of fame.
+                        </div>
+                        <div class="prizeMoney">
+                            <h5>PRIZE MONEY</h5>
+                            <p>1st Prize: INR 3,000/-*</p>
+                            <p>2nd Prize: INR 2,000/-*</p>
+                        </div>
+                    </div>
+                    <div class="details-item details-btns">
+                        <button class="btn details-btn" id="csBtn">Rules</button>
+                        <button class="btn details-btn RegisterBtn">Register</button>
+                        <div class="bold green small-font">(OFFLINE REGISTRATION DESK IS ALSO AVAILABLE TO REGISTER DIRECTLY ON THE EVENT DATE)</div>
+                        <div class="bold red small-font">* Prize money is subject to change based on the number of participants</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="event-details 6-event">
+            <i class="fa fa-3x fa-times modal-close-btn" eventNo="6" aria-hidden="true"></i>
+            <div class="details">
+                <h1>NFS</h1>
+                <div class="details-card">
+                    <div class="details-item details-img">
+                        <img style="height:90%" src="./img/events/nfs.jpg" alt="Event">
+                    </div>
+                    <div class="details-item details-category">
+                        <h5>Details</h5>
+                        <table>
+                            <tr>
+                                <td class="bold">Category</td>
+                                <td>:</td>
+                                <td>Gaming</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Date</td>
+                                <td>:</td>
+                                <td class="dateEvent">Soon</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Registration Fee</td>
+                                <td>:</td>
+                                <td>Rs.50/- per head</td>
+                            </tr>
+
+                        </table>
+                        <p>
+                            <i>(Download Rules for more details)</i>
+                        </p>
+                    </div>
+                    <div class="details-item details-rules">
+                        <div>
+                            Love to play NFS? Show your skill on NFS and win prize.
+                        </div>
+                        <div class="prizeMoney">
+                            <h5>PRIZE MONEY</h5>
+                            <p>1st Prize: INR 1,200/-*</p>
+                            <p>2nd Prize: INR 800/-*</p>
+                        </div>
+
+                    </div>
+                    <div class="details-item details-btns">
+                        <button class="btn details-btn" id="nfsBtn">Rules</button>
+                        <button class="btn details-btn RegisterBtn">Register</button>
+                        <div class="bold green small-font">(OFFLINE REGISTRATION DESK IS ALSO AVAILABLE TO REGISTER DIRECTLY ON THE EVENT DATE)</div>
+                        <div class="bold red small-font">* Prize money is subject to change based on the number of participants</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="landing-section">
+        <div class="landing">
+            <div class="logo">
+                <img src="img/SDET_Logo.png" class="brainware-logo" alt="Brainware">
+                <h1>TECHNITIATE</h1>
+                <h3>2K18</h3>
+            </div>
+            <div class="darkness"></div>
+            <i class="fa fa-chevron-down fa-3x go-down" aria-hidden="true"></i>
+        </div>
+    </section>
+
+    <section class="" id="events-section">
+        <div class="container">
+            <div>
+                <h2 class="headline-section wow jackInTheBox">EVENTS</h2>
+                <h4 class="subline-section wow jackInTheBox" data-wow-duration="0.6s" data-wow-delay="0.3s">Some exciting events that are taking place</h4>
+                <hr>
+                <div class="events">
+                    <div eventNo="1" data-wow-duration="1s" class="event wow slideInLeft">
+                        <div class="card">
+                            <div class="card-item card-front">
+                                <img src="./img/events/techno_buzz_comp.jpg" alt="techno-buzz">
+                                <div class="headText">
+                                    <p>techno buzz</p>
+                                </div>
+                            </div>
+                            <div class="card-item card-back">
+                                <img src="./img/events/techno_buzz_comp.jpg" alt="techno-buzz">
+                                <div class="eventName">
+                                    <p>techno buzz</p>
+                                </div>
+                                <div class="headText">
+                                    <p>Know More</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div eventNo="2" data-wow-duration="1s" class="event wow fadeInDown">
+                        <div class="card">
+                            <div class="card-item card-front">
+                                <img src="./img/events/BUILD_MECH_ARENA.jpeg" alt="build-mech-arena">
+                                <div class="headText">
+                                    <p>build mech arena</p>
+                                </div>
+                            </div>
+                            <div class="card-item card-back">
+                                <img src="./img/events/BUILD_MECH_ARENA.jpeg" alt="build-mech-arena">
+                                <div class="eventName">
+                                    <p>build mech arena</p>
+                                </div>
+                                <div class="headText">
+                                    <p>Know More</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div eventNo="3" data-wow-duration="1s" class="event Right wow slideInRight">
+                        <div class="card">
+                            <div class="card-item card-front">
+                                <img src="./img/events/code-storm.jpg" alt="code-storm">
+                                <div class="headText">
+                                    <p>code storm</p>
+                                </div>
+                            </div>
+                            <div class="card-item card-back">
+                                <img src="./img/events/code-storm.jpg" alt="code-storm">
+                                <div class="eventName">
+                                    <p>code storm</p>
+                                </div>
+                                <div class="headText">
+                                    <p>Know More</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div eventNo="4" data-wow-duration="1s" class="event wow slideInLeft">
+                        <div class="card">
+                            <div class="card-item card-front">
+                                <img src="./img/events/photography.jpg" alt="photography">
+                                <div class="headText">
+                                    <p>photography</p>
+                                </div>
+                            </div>
+                            <div class="card-item card-back">
+                                <img src="./img/events/photography.jpg" alt="photography">
+                                <div class="eventName">
+                                    <p>photography</p>
+                                </div>
+                                <div class="headText">
+                                    <p>Know More</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div eventNo="5" data-wow-duration="1s" class="event wow fadeInUp">
+                        <div class="card">
+                            <div class="card-item card-front">
+                                <img src="./img/events/CS.jpg" alt="cs-go">
+                                <div class="headText">
+                                    <p>cs 1.6</p>
+                                </div>
+                            </div>
+                            <div class="card-item card-back">
+                                <img src="./img/events/CS.jpg" alt="cs-go">
+                                <div class="eventName">
+                                    <p>cs 1.6</p>
+                                </div>
+                                <div class="headText">
+                                    <p>Know More</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div eventNo="6" data-wow-duration="1s" class="event wow slideInRight">
+                        <div class="card">
+                            <div class="card-item card-front">
+                                <img src="./img/events/nfs.jpg" alt="NFS">
+                                <div class="headText">
+                                    <p>NFS</p>
+                                </div>
+                            </div>
+                            <div class="card-item card-back">
+                                <img src="./img/events/nfs.jpg" alt="NFS">
+                                <div class="eventName">
+                                    <p>NFS</p>
+                                </div>
+                                <div class="headText">
+                                    <p>Know More</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="" id="about-section">
+        <div class="container">
+            <h1 class="headline-section wow jackInTheBox">ABOUT</h1>
+            <h4 class="subline-section wow jackInTheBox" data-wow-duration="0.6s" data-wow-delay="0.3s">The Technitiate</h4>
+            <hr>
+            <div class="wow slideInRight about-box">
+                <div class="about-img">
+                    <img src="./img/about/1.jpg" alt="about">
+                </div>
+                <div class="about-content">
+                    <h5>2010</h5>
+                    <h5>It's our Humble Beginning</h5>
+                    <p>
+                        It has been 28 years in the educational industry providing opportunities to aspiring students learn new skills in their respective
+                        fields. Then, to spread the knowledge more and more we introduced a better infrastructure to students
+                        in the form of Brainware Group of Institutions.
+                    </p>
+                </div>
+                <div class="about-blank"></div>
+            </div>
+            <div class="wow slideInLeft about-box">
+                <div class="about-img">
+                    <img src="./img/about/2.jpg" alt="about">
+                </div>
+                <div class="about-content">
+                    <h5>2018</h5>
+                    <h5>Tireless journey of 9 years</h5>
+                    <p>
+                        After 9 glorious and successful years we are coming up with a new platform for students to show their skills
+                    </p>
+                </div>
+                <div class="about-blank"></div>
+            </div>
+            <div class="wow slideInRight about-box">
+                <div class="about-img">
+                    <img src="./img/about/3.jpg" alt="about">
+                </div>
+                <div class="about-content">
+                    <h5>TECHNITIATE 2K18</h5>
+                    <h5>An annual technical event</h5>
+                    <p>
+                        Wondering what's new this time?
+                    </p>
+                </div>
+                <div class="about-blank"></div>
+            </div>
+            <div class="wow slideInLeft about-box">
+                <div class="about-img">
+                    <img src="./img/about/4.jpg" alt="about">
+                </div>
+                <div class="about-content">
+                    <h5>SURPRISE!</h5>
+                    <h5>Come and challenge yourself</h5>
+                    <p>
+                        This time it's intercollege. That means you can come to our venue and battle it out to win wonderful prizes. We have five
+                        exciting events to take part. We summon all the technical knights to come up and show your skill
+                        in this battleground. But, before being overconfident, always remember there is always someone better
+                        than you.
+                    </p>
+                </div>
+                <div class="about-blank"></div>
+            </div>
+        </div>
+    </section>
+    <section class="" id="team-section">
+        <div class="container">
+            <h1 class="headline-section wow jackInTheBox">OUR AMAZING TEAM</h1>
+            <!-- <h4 class="subline-section">Teacher & Co-ordinators</h4> -->
+            <hr>
+            <div class="wow slideInRight team-members">
+                <h4>TEACHERS & co-ordinator</h4>
+                <div class="team-member">
+                    <h5>Pankaj Kumar Sanda</h5>
+                    <p>Teacher Co-ordinator</p>
+                </div>
+                <div class="team-member">
+                    <h5>Arnab Das</h5>
+                    <p>Teacher Co-ordinator</p>
+                </div>
+            </div>
+            <div class="wow slideInLeft team-members">
+                <h4>EVENT MANAGEMENT</h4>
+                <!-- <p>THE PEOPLE WHO MANAGED RELATIONS WITH SPONSERS</p> -->
+                <div class="team-member">
+                    <h5>Nilanjan Adak</h5>
+                    <p>Assistant Marketer</p>
+                </div>
+                <div class="team-member">
+                    <h5>Fayez Kabir Molla</h5>
+                    <p>Assistant Marketer</p>
+                </div>
+                <div class="team-member">
+                    <h5>Tathagata Chattopadhyay</h5>
+                    <p>Assistant Marketer</p>
+                </div>
+            </div>
+            <div class="wow slideInRight team-members">
+                <h4>WEB DEVELOPMENT</h4>
+                <!-- <p>THE PEOPLE WHO DEVELOPED THIS WEBSITE AND OTHER CREATIVE STUFF</p> -->
+                <div class="team-member">
+                    <a target="_blank" href="https://github.com/prithweedas">
+                        <h5>Prithwee Das</h5>
+                    </a>
+                    <p>Full Stack Developer</p>
+                </div>
+                <div class="team-member">
+                    <a target="_blank" href="https://github.com/ritwickdey">
+                        <h5>Ritwick Dey</h5>
+                    </a>
+                    <p>Full Stack Developer</p>
+                </div>
+                <div class="team-member">
+                    <a target="_blank" href="https://www.facebook.com/arnab.datta.549">
+                        <h5>Arnab Datta</h5>
+                    </a>
+                    <p>Designer & Editor</p>
+                </div>
+            </div>
+
+            <!-- <div class="team-members">
+                <h4>EVENT CO-ORDINATORS</h4>
+                <div class="team-member">
+                    <a href="https://github.com/prithweedas">
+                        <h5>Prithwee Das</h5>
+                    </a>
+                    <p>Code-storm</p>
+                </div>
+            </div> -->
+
+    </section>
+
+    <section class="" id="contact-section">
+        <div class="container">
+            <div>
+                <h2 class="headline-section wow jackInTheBox">CONTACT US</h2>
+                <h4 class="subline-section wow jackInTheBox" data-wow-duration="0.6s" data-wow-delay="0.3s">Get in touch with us</h4>
+                <hr>
+                <div class="contact-areas">
+                    <div class="contact-area wow fadeInLeft" data-wow-offset="75">
+                        <h5>
+                            Send Query
+                        </h5>
+                        <form class="feedback">
+                            <div class="form-group">
+                                <input id="name" name="name" type="text" class="form-control" required placeholder="Your Name *">
+                            </div>
+                            <div class="form-group">
+                                <input id="email" name="email" type="email" class="form-control" required placeholder="Your Email *">
+                            </div>
+                            <div class="form-group">
+                                <input id="_next" type="hidden" name="_next" value="https://ritwickdey.github.io/bgi-tech-fech-2k18/" />
+                            </div>
+                            <div class="form-group">
+                                <input id="phone" name="phone" type="text" class="form-control" placeholder="Your Phone No *" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" style="height: 182px" type="text" class="form-control" placeholder="Your Message *"
+                                    required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div id="msgSentConfirm"></div>
+                                <button id="formSubmit" class="btn from-submit" type="submit">SEND MESSAGE</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-area wow fadeInRight" data-wow-offset="75">
+                        <h5>
+                            OUR LOCATION
+                            <i class="fa fa-map-marker"></i>
+                        </h5>
+                        <p>
+                            <i class="fa fa-phone" aria-hidden="true"></i> +91-9433403191
+                            <br>
+                            <i class="fa fa-envelope" aria-hidden="true"></i> technitiate.enquiry@gmail.com
+                        </p>
+
+                        <div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1839.9497687001285!2d88.49874416108938!3d22.731975145316692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8a23ff5136355%3A0x98a2aa49b2753154!2sSavita+Devi+Education+Trust+-+Brainware+Group+Of+Institutions!5e0!3m2!1sen!2sin!4v1471115575753"
+                                class="map" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="wow fadeInUp" data-wow-offset="0">
+        <div class="container">
+            <div style="float:left; line-height: 40px;">
+                Copyright © 2017-18
+                <a class="name" href="http://brainwaretechnologies.org">BRAINWARETECHNOLOGIES.ORG</a>
+            </div>
+            <div style="float:right">
+                <a class="socialBtn" target="_blank" href="https://www.facebook.com/BGI.Technitiate">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a class="socialBtn" href="mailto:technitiate.enquiry@gmail.com">
+                    <i class="fa fa-envelope"></i>
+                </a>
+                <a class="socialBtn" href="tel:+91-9433403191">
+                    <i class="fa fa-phone"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const wowConfig = {
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: window.innerWidth <= 750 ? 0 : 50,
+            mobile: false,
+            live: true,
+            scrollContainer: null
+        }
+        const wow = new WOW(wowConfig);
+        wow.init();
+        const registerUrl = 'https://goo.gl/forms/h7NmKvRsETvQdhDV2';
+        const codeStromUrl = 'https://drive.google.com/open?id=1T6hdXMUWOAnq43GYyxEaQkmUOuuQ7Tjo';
+        const csUrl = 'https://drive.google.com/open?id=1W-ozeGOEu08jmqWxOjCTwKAui5KnFzDU';
+        const nfsUrl = 'https://drive.google.com/open?id=15TV8qq-Yyiu4XEyvmy-0ieOIWb6cxVK5';
+        const photoUrl = 'https://drive.google.com/open?id=1ce5Z3hqNUSCdbCC8aCeMFEGsiuJ0avhL';
+        const bmaUrl = 'https://drive.google.com/open?id=1Td5-xu8I70A_JRKNa-g7SKywqua-g6Wi';
+        const techUrl = 'https://drive.google.com/open?id=1yPZypm1d6kkrBSFiUJAIUOqrr8MOuPHX';
+        const eventDate = '10.03.2018';
+
+        document.getElementById('csBtn').onclick = () => window.open(csUrl, '_blank');
+        document.getElementById('codeStromBtn').onclick = () => window.open(codeStromUrl, '_blank');
+        document.getElementById('nfsBtn').onclick = () => window.open(nfsUrl, '_blank');
+        document.getElementById('photoBtn').onclick = () => window.open(photoUrl, '_blank');
+        document.getElementById('bmaBtn').onclick = () => window.open(bmaUrl, '_blank');
+        document.getElementById('techBtn').onclick = () => window.open(techUrl, '_blank');
+
+        [...document.getElementsByClassName('RegisterBtn')].forEach(e =>
+            e.onclick = () => window.open(registerUrl, '_blank'));
+
+        [...document.getElementsByClassName('dateEvent')].forEach(e => {
+            e.innerHTML = eventDate;
+        });
+    </script>
+
+</body>
+
+
+</html>
